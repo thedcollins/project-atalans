@@ -44,7 +44,8 @@
   .footer,
   .end-container,
   .end-menu,
-  .thor-text{
+  .thor-text,
+  .quote-container{
     display: flex;
   }
   .logo{
@@ -55,7 +56,8 @@
   .header-text,
   .photo-grid-container,
   .footer,
-  .end-container{
+  .end-container,
+  .quote-container{
     justify-content: center;
   }
   .menu,
@@ -76,7 +78,8 @@
   .menu,
   .header,
   .photo-grid,
-  .end-menu{
+  .end-menu,
+  .quote-text-container{
     width: 1000px;
   }
   .two,
@@ -145,7 +148,7 @@
 .quote-container{
     background-color: #E5E7EB;
     font-style: italic;
-    padding: 100px 210px;
+    padding: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
