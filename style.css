@@ -4,9 +4,19 @@
     box-sizing: border-box;
   }
   .menu-container,
-  .header-container{
+  .header-container,
+  .footer{
     background-color: #1F2937; 
+  }
+  .menu-container,
+  .header-container,
+  .header-text,
+  .footer,
+  .end-container{
     padding: 20px 20px;
+  }
+  .header-container{
+    padding-bottom: 100px;
   }
   .maintext{
     color: #F9FAF8;
@@ -14,7 +24,11 @@
     font-size: 48px;
   }
   .links,
-  .secondarytext{
+  .secondarytext,
+  .button,
+  .footer,
+  .text-container,
+  .button2{
     color: #E5E7EB;
     font-size: 18px;
   }
@@ -23,22 +37,36 @@
   .logo,
   .links,
   .header-container,
-  .header{
+  .header,
+  .header-text,
+  .photo-grid-container,
+  .photo-grid,
+  .footer,
+  .end-container,
+  .end-menu,
+  .thor-text{
     display: flex;
   }
   .logo{
     justify-content: flex-start;
   }
   .menu-container,
-  .header-container{
+  .header-container,
+  .header-text,
+  .photo-grid-container,
+  .footer,
+  .end-container{
     justify-content: center;
   }
   .menu,
-  .header{
+  .header,
+  .photo-grid,
+  .end-menu{
     justify-content: space-between;
   }
- 
-  .links {
+  .links,
+  .button-container,
+  .thor-text{
     justify-content: flex-end;
   }
   .links,
@@ -46,12 +74,89 @@
     align-items: center;
   }
   .menu,
-  .header{
-    width: 800px;
+  .header,
+  .photo-grid,
+  .end-menu{
+    width: 1000px;
   }
   .two,
   .three{
     margin-left: 20px;
   }
-
-  
+.button,
+.button2,
+.end-menu{
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+.photo-grid-item img{
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+.button,
+.button2{
+    padding: 10px 30px;
+}
+.button,
+.end-menu{
+    border: none;
+}
+.button{
+    margin-top: 20px;
+  }
+.end-menu{
+    padding: 40px 100px;
+}
+.button2{
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.crop{
+    margin-left: 100px;
+}
+.header-text{
+    color: #1F2937;
+}
+.header-text,
+.quote-text-container{
+    font-size: 36px;
+}
+.maintext,
+.button,
+.header-text,
+.call-text,
+.button2,
+.thor-text{
+    font-weight: bold;
+}
+.links,
+.maintext,
+.secondarytext,
+.button,
+.header-text,
+.footer,
+.text-container,
+.quote-text-container{
+    font-family: Roboto;
+}
+.call-text{
+    font-size: 25px;
+}
+.quote-container{
+    background-color: #E5E7EB;
+    font-style: italic;
+    padding: 100px 210px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.end-container{
+    margin-bottom: 70px;
+}
+.header-text,
+.quote-container{
+    color: #1F2937;
+}
+.photo-grid-container,
+.header-text{
+    margin-top: 50px;
+}
